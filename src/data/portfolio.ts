@@ -6,13 +6,13 @@ export type Skill = {
 
 export const skills: Skill[] = [
   { name: 'HTML5', level: 95, color: 'from-orange-500 to-pink-500' },
-  { name: 'CSS3 / Tailwind', level: 90, color: 'from-cyan-400 to-blue-500' },
-  { name: 'JavaScript', level: 88, color: 'from-yellow-400 to-orange-500' },
+  { name: 'CSS3 / Tailwind', level: 95, color: 'from-cyan-400 to-blue-500' },
+  { name: 'JavaScript', level: 90, color: 'from-yellow-400 to-orange-500' },
   { name: 'TypeScript', level: 80, color: 'from-blue-500 to-indigo-500' },
   { name: 'React / Vite', level: 85, color: 'from-cyan-400 to-violet-500' },
   { name: 'Node.js', level: 78, color: 'from-emerald-400 to-teal-500' },
-  { name: 'PHP / MySQL', level: 72, color: 'from-fuchsia-500 to-purple-600' },
-  { name: 'C / C++ / Java', level: 80, color: 'from-rose-500 to-amber-500' },
+  { name: 'MongoDB / MySQL', level: 85, color: 'from-fuchsia-500 to-purple-600' },
+  { name: 'Express.js', level: 80, color: 'from-rose-500 to-amber-500' },
 ];
 
 export type Certificate = {
@@ -158,7 +158,7 @@ export const profile = {
   email: 'nikhilfalke11@gmail.com',
   phone: '+91 7499105910',
   resume: '/img/Nikhil Resume22.pdf',
-  avatar: '/img/mypic.jpg',
+  avatar: '/img/newPic.jpeg',
   socials: {
     github: 'https://github.com/Nikhil-2002',
     linkedin: 'https://www.linkedin.com/in/nikhil-falke-1a3639200/',
