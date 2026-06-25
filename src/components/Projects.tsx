@@ -258,6 +258,18 @@ export default function Projects() {
             </motion.article>
           ))}
         </div>
+
+        <div className="mt-8 flex justify-end">
+          <a
+            href="https://github.com/Nikhil-2002"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-sm font-semibold text-white/80 backdrop-blur-xl transition hover:border-white/40 hover:text-white"
+          >
+            <FiGithub size={16} />
+            See more projects
+          </a>
+        </div>
       </div>
 
       <AnimatePresence>

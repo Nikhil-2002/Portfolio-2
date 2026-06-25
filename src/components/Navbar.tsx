@@ -60,7 +60,7 @@ export default function Navbar() {
         >
           <span className="relative grid place-items-center rounded-xl">
             <img
-              src="/img/blackwolf-wolf.svg"
+              src={profile.logo}
               alt="BlackWolf"
               className="h-9 w-9 object-contain"
             />
