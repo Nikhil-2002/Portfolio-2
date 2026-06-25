@@ -1,3 +1,5 @@
+const pub = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+
 export type Skill = {
   name: string;
   level: number;
@@ -27,55 +29,55 @@ export const certificates: Certificate[] = [
     title: 'Scientist Day Certificate',
     category: 'NASA',
     date: '09 May 2021',
-    image: '/img/work-1.jpg',
+    image: pub('/img/work-1.jpg'),
   },
   {
     title: 'Digital Marketing',
     category: 'Google',
     date: '12 June 2021',
-    image: '/img/work-2.jpg',
+    image: pub('/img/work-2.jpg'),
   },
   {
     title: 'Communication Skills',
     category: 'TCS iON',
     date: '23 June 2021',
-    image: '/img/work-3.jpg',
+    image: pub('/img/work-3.jpg'),
   },
   {
     title: 'Web Development',
     category: 'ShapeAI',
     date: '18 July 2021',
-    image: '/img/work-4.jpg',
+    image: pub('/img/work-4.jpg'),
   },
   {
     title: 'Web Competition',
     category: 'Tech Tantra',
     date: '11 Aug 2021',
-    image: '/img/work-5.jpg',
+    image: pub('/img/work-5.jpg'),
   },
   {
     title: 'Coding Internship',
     category: 'Web Design',
     date: '18 Sep 2017',
-    image: '/img/work-6.jpg',
+    image: pub('/img/work-6.jpg'),
   },
   {
     title: 'Python with Tkinter',
     category: 'Training',
     date: '18 Sep 2018',
-    image: '/img/work-7.jpg',
+    image: pub('/img/work-7.jpg'),
   },
   {
     title: 'C++ Programming',
     category: 'Udemy',
     date: '18 Sep 2018',
-    image: '/img/work-8.jpg',
+    image: pub('/img/work-8.jpg'),
   },
   {
     title: 'Coding Competition',
     category: 'Coding',
     date: '18 Sep 2017',
-    image: '/img/work-11.jpeg',
+    image: pub('/img/work-11.jpeg'),
   },
 ];
 
@@ -95,37 +97,36 @@ export const projects: Project[] = [
     description:
       'This very site — built from scratch with React, TypeScript, Tailwind, Framer Motion, MUI and Swiper.',
     tech: ['React', 'TypeScript', 'Tailwind', 'Framer Motion'],
-    image: '/img/work-9.png',
+    image: pub('/img/work-9.png'),
     // Embed the same origin so the preview is always live.
     demo: '/',
     source: 'https://github.com/Nikhil-2002',
     featured: true,
   },
   {
-    title: 'Responsive Calculator',
+    title: 'FoodShare',
     description:
-      'A clean, responsive calculator with keyboard support and theme toggle. Mobile-first design.',
+      'Every day thousands of meals are wasted while millions go hungry. FoodShare connects restaurants, NGOs, and volunteers to save food and serve communities.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    image: '/img/work-4.jpg',
-    // TODO: replace with your hosted URL (Vercel / Netlify / GitHub Pages)
-    demo: 'https://nikhil-2002.github.io/calculator/',
-    source: 'https://github.com/Nikhil-2002',
+    image: pub('/img/work-6.jpg'),
+    demo: 'https://nikhil-2002.github.io/FoodShare/',
+    source: 'https://github.com/Nikhil-2002/FoodShare',
   },
   {
-    title: 'Todo List App',
+    title: 'ParkEasy',
     description:
-      'Persistent task manager with add/edit/delete, filters, and localStorage. Smooth micro-interactions.',
+      'Reserve parking spaces instantly and eliminate the stress of searching for parking. Discover, reserve, navigate and park — all before you leave.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    image: '/img/work-5.jpg',
-    demo: 'https://nikhil-2002.github.io/todo-list/',
-    source: 'https://github.com/Nikhil-2002',
+    image: pub('/img/work-5.jpg'),
+    demo: 'https://nikhil-2002.github.io/ParkEasyy/',
+    source: 'https://github.com/Nikhil-2002/ParkEasyy',
   },
   {
     title: 'Landing Page Collection',
     description:
       'A series of pixel-perfect landing pages with modern layouts, animations, and accessibility.',
     tech: ['HTML', 'CSS', 'Bootstrap'],
-    image: '/img/work-2.jpg',
+    image: pub('/img/work-2.jpg'),
     demo: 'https://nikhil-2002.github.io/landing-pages/',
     source: 'https://github.com/Nikhil-2002',
   },
@@ -134,7 +135,7 @@ export const projects: Project[] = [
     description:
       'Desktop billing app for restaurants with menu, order management, tax calculation and printable receipts.',
     tech: ['Python', 'Tkinter', 'SQLite'],
-    image: '/img/work-7.jpg',
+    image: pub('/img/work-7.jpg'),
     // No live demo (desktop app) — falls back to image preview.
     source: 'https://github.com/Nikhil-2002',
     featured: true,
@@ -144,7 +145,7 @@ export const projects: Project[] = [
     description:
       'Award-winning competition site built under a time-boxed challenge with Bootstrap and jQuery.',
     tech: ['HTML', 'CSS', 'jQuery'],
-    image: '/img/work-10.jpg',
+    image: pub('/img/work-10.jpg'),
     demo: 'https://nikhil-2002.github.io/competition-site/',
     source: 'https://github.com/Nikhil-2002',
   },
@@ -157,8 +158,8 @@ export const profile = {
   location: 'Amravati, Maharashtra, India',
   email: 'nikhilfalke11@gmail.com',
   phone: '+91 7499105910',
-  resume: '/img/Nikhil Resume22.pdf',
-  avatar: '/img/newPic.jpeg',
+  resume: pub('/img/Nikhil Resume22.pdf'),
+  avatar: pub('/img/newPic.jpeg'),
   socials: {
     github: 'https://github.com/Nikhil-2002',
     linkedin: 'https://www.linkedin.com/in/nikhil-falke-1a3639200/',
