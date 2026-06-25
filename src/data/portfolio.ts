@@ -98,9 +98,8 @@ export const projects: Project[] = [
       'This very site — built from scratch with React, TypeScript, Tailwind, Framer Motion, MUI and Swiper.',
     tech: ['React', 'TypeScript', 'Tailwind', 'Framer Motion'],
     image: pub('/img/work-9.png'),
-    // Embed the same origin so the preview is always live.
-    demo: '/',
-    source: 'https://github.com/Nikhil-2002',
+    demo: 'https://nikhil-2002.github.io/Portfolio-2/',
+    source: 'https://github.com/Nikhil-2002/Portfolio-2',
     featured: true,
   },
   {
