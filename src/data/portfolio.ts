@@ -158,7 +158,7 @@ export const profile = {
   email: 'nikhilfalke11@gmail.com',
   phone: '+91 7499105910',
   logo: pub('/img/blackwolf-wolf.svg'),
-  resume: pub('/img/Nikhil Resume22.pdf'),
+  resume: pub('/img/Nikhil_Falke_Resume_Updated.pdf'),
   avatar: pub('/img/newPic.jpeg'),
   socials: {
     github: 'https://github.com/Nikhil-2002',
